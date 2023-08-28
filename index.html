@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>amazonCV</title>
+    <link href="/AmazonCV.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+     <nav class="navbar navbar-inverse full">
+        <!-- <div class="container-fluid"> -->
+
+          <div class="navbar-header">
+            <img src="https://zeevector.com/wp-content/uploads/Amazon-Logo-White@zeevector.png" class="image">
+          </div>
+          <!-- <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+          </ul> -->
+          <div class="location">
+            <span class="glyphicon glyphicon-map-marker"></span> <p class="loc">Hamirpur,HP</p>
+          </div>
+          <form>
+            <input class="search" Type="search" placeholder="Vigykshit Katoch">
+            <button class="btn btn-warning" type="button"> <span class="glyphicon glyphicon-search"></span></button>
+          </form>
+          <div class="cart">
+            <span class="glyphicon glyphicon-shopping-cart"></span> <p class="fuse">Add To Cart</p>
+           </div>
+          <div class="icon">
+           <span class="glyphicon glyphicon-user"></span> <p class="use">Login/Register</p>
+          </div>
+        <!-- </div> -->
+       </nav>
+       <div class="info">
+         <div class="hello">
+            <span class="glyphicon glyphicon-map-marker"></span><p class="basic">Hamirpur,HP(INDIA)</p>
+         </div>
+         <div class="hello">
+            <span class="glyphicon glyphicon-envelope"></span><p class="basic">katoch.vigy96@gmail.com</p>
+         </div>
+         <div class="hello">
+            <span class="glyphicon glyphicon-phone"></span><p class="basic">+91-8628976465</p>
+         </div>
+       </div>
+       <div class="page">
+       <div class="page1">
+        <img src="./images/katoch.png" alt="katoch" class="photo">
+
+        <h3>Vigykshit katoch</h3>
+        <p class="font">Visit:https://vigykshit.github.io/profile/</p>
+        <div class="star">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        -For Skills 
+        </div> 
+        <div class="software"> 
+        <img src="data:image/png;base64,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" alt="choice" class="choice">
+         for software Development
+        </div>
+        <hr>
+
+        <div class="about">
+       <h3> About This Candidate</h3>
+      <p> Energetic and detail-oriented software developer with a focus on full-stack
+development. Skilled in designing and implementing responsive and intuitive
+web interfaces using HTML, CSS, and JavaScript, alongside building robust
+server-side applications with Java and React. Committed to continuous
+learning and seeking an entry-level Full-Stack Developer position to contribute
+my technical expertise and collaborate with a team of like-minded
+professionals</p>
+        </div>
+        <hr/>
+
+        <div class="exp">
+          <h3>Experience</h3>
+          <p><b>Edureka | Web Development Intern</b> <P class="orange">From 02/2023-08/2023</P></p>
+          <p><U>Amazon clone App</U></p>
+          <ul>
+            <li>It is a single page Application</li>
+            <li>Developed product design , responsive design and user friendly</li>
+            <li>It is an e-commerce live web application for shopping various product.</li>
+            
+          </ul>
+          <p><U>Zomato clone App</U></p>
+          <ul>
+            <li>It is a single page Application</li>
+            <li>It is live web application use for ordering food</li>
+            
+          </ul>
+          <p><u>Related Experience</u></p>
+          <ul>
+            <li>Designed and constructed REST API to facilitate seamless connection
+              between frontend UI and backend service.</li>
+              <li>Integrated front-end UI with the constructed API, creating responsive
+                application with the user friendly design.</li>
+                <li>Evaluate analysis, problem definition and requirements to determine the
+                  operational feasibility of proposed solution.</li>
+                  <li>Tested and deployed applications while adhering to system
+                    specifications.</li>
+          </ul>
+        </div>
+        
+         
+       </div>
+      <div class="page2">
+        <div class="skills">
+          <center>
+        <h3>Skills</h3></center>
+        
+          <li>Expert in Microsoft Office.</li>
+          <li>Web technologies:<uL><li>HTML</li><li>CSS</li><li> JavaScript</li>
+            <li>Node.js</li><li>React</li></uL></li>
+            <li>Writing and communication skills</li>
+            <li>Hard working</li>
+            <li>Self-motivated</li>
+       
+      </div>
+      <hr/>
+      <div class="education">
+        <center>
+          <h3>Education</h3>
+        </center>
+       
+        <p class="A">Bachelors, CIVIL Engineering</p>
+        <p class="C">2017-2021</p>
+          <h4 class="B"><b>DAV University, Jalandhar</b></h4>
+          <p class="C">CGPA:6.39</p>
+       <p>High School</p>
+       <h4 class="B"><b>Dav Public School, Hamirpur(H.P)</b></h4>
+       <p class="C">CGPA:6.85</p>
+      </div>
+      <hr/>
+      <div class="cerification">
+       <center>
+<h3>Certification</h3>
+      </center>
+      <li>Full Stack Web Development</li>
+      <p class="cer">Certificate ID:<u>RMR5E3TC</u></p>
+     </div>
+<hr/>
+<div class="additional">
+  <center>
+  <h3>Additional</h3>
+</center>
+<li><b class="intrest">Interests:</b><ul><li>Cooking</li><li>Bedminton</li><li>Chess</li><li>Billiards</li></ul></li>
+</div>
+<hr/>
+    <button class="btn btn-basic add" type="button">Add to Cart</button>
+    <br>
+    <button class="btn btn-warning buy" type="button">Buy Now</button>
+    </div>
+      </div>
+
+
+    </div>
+</body>
+</html>

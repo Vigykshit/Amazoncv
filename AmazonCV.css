@@ -1,0 +1,196 @@
+body{
+    height: 1600px;
+   width: 100%;
+    border: 2px solid green;
+    align-items: center;
+    position: relative;
+   
+}
+.container-fluid{
+    height: 1250px;
+    width: 800px;
+    /* border: 2px #a02b2b solid; */
+    position: absolute;
+   top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+   }
+
+.full{
+    width: 104%;
+    margin-left: -15px;
+    border-radius: 0%;
+    height: 60px;
+}
+.image{
+    height: 40px;
+    margin: 8px;
+}
+form{
+    margin-left: 34%;
+    margin-top: -5.7%;
+}
+.search{
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+}
+.use{
+   margin-left: -39px;
+   /* color: #FFF; */
+}
+.icon{
+    margin-left:92%;
+    margin-top: -5%;
+    line-height: 1;
+    color: #FFF;
+    display: block;
+    
+}
+.location{
+    margin-top: 2%;
+    margin-left: 24%;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+}
+.loc{
+    margin-left: -27px;
+}
+.cart{
+    margin-left:77%;
+    margin-top: -3.5%;
+    line-height: 1;
+    color: #FFF;
+    display: block;
+    
+}
+.fuse{
+    margin-left: -23px;
+}
+
+.info{
+    height: 40px;
+    width: 104%;
+    margin-left: -15px;
+    margin-top: -20px;
+    background-color:#001831; 
+     /* border: 2px solid #a02b2b; */
+     padding: none; 
+     display: flex;
+
+}
+.hello{
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 1;
+    color: #FFF;
+}
+.basic{
+    display: inline;
+    margin-left: 10px;
+    color: #FFF;
+}
+.page{
+    height: 1050px;
+    width: 104%;
+    margin-left: -15px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.page1{
+    height: 1050px;
+    width: 65%;
+    /* border: 1px solid green; */
+    padding: 1%;
+    margin-top: 10px;
+    margin-left: 2px;
+    border-right: gray;
+}
+.photo{
+    height: 120px;
+}
+h3{
+    font-weight: 600;
+    margin-top: -1px;
+}
+.font{
+    color: #007185;
+    margin-top: -10px;
+}
+.glyphicon-star{
+    color: #febd69;
+   
+}
+.star{
+    margin-top: -10px;
+    color: #007185;
+}
+.software{
+    color: #007185;
+}
+.choice{
+    height: 25px;
+}
+hr{
+    color: black;
+}
+
+.orange{
+    color: #007185;
+    margin-left: 275px;
+    margin-top: -29px;
+}
+
+.B{
+    margin-top: -10px;
+}
+.C{
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+.page2{
+    height: 980px;
+    width: 32%;
+    /* border: 2px solid blue; */
+    padding: 1%;
+    margin-top: 18px;
+    margin-left: 13px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.skills{
+    margin-top: 15px;
+}
+.cer{
+    margin-left: 20px;
+}
+.cerification{
+   margin-top: 15px;
+}
+.additional{
+    margin-top: 15px;
+}
+.add{
+    width: 200px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: rgb(233, 233, 61);
+   
+}
+.buy{
+    width: 200px;
+    margin-left: 18px;
+    margin-top: 10px;
+   
+}
+.intrest{
+    color: #007185;
+}
